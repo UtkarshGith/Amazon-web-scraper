@@ -1,0 +1,9 @@
+
+In[21]:
+# Clean up the data a little bit
+
+price = price.strip()[1:]
+title = title.strip()
+
+print(title)
+print(price)
