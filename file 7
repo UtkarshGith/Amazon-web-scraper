@@ -1,0 +1,7 @@
+
+In[29]:
+#Now we are appending data to the csv
+
+with open('AmazonWebScraperDataset.csv', 'a+', newline='', encoding='UTF8') as f:
+    writer = csv.writer(f)
+    writer.writerow(data)
