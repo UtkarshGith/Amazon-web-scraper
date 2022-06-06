@@ -1,0 +1,13 @@
+In[22]:
+# Create CSV and write headers and data into the file
+
+import csv 
+
+header = ['Title', 'Price', 'Date']
+data = [title, price, today]
+
+
+with open('AmazonWebScraperDataset.csv', 'w', newline='', encoding='UTF8') as f:
+    writer = csv.writer(f)
+    writer.writerow(header)
+    writer.writerow(data)
