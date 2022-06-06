@@ -1,5 +1,5 @@
 
-In[21]:
+In[17]:
 # Clean up the data a little bit
 
 price = price.strip()[1:]
