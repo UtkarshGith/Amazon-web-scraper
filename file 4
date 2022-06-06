@@ -1,0 +1,8 @@
+In[21]:
+# Create a Timestamp for your output to track when data was collected
+
+import datetime
+
+today = datetime.date.today()
+
+print(today)
