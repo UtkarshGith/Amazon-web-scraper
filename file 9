@@ -1,0 +1,6 @@
+In[]:
+# Runs check_price after a set time and inputs data into your CSV
+
+while(True):
+    check_price()
+    time.sleep(86400)
